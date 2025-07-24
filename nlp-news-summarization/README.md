@@ -25,6 +25,7 @@ Bu depo, bir metin özetleme modeli oluşturmak ve eğitmek için gereken tüm a
 
 ### 2. 🔤 Tokenizasyon
 - Metin ve özetler, **T5-Small tokenizer** ile sayısal token'lara dönüştürülür.
+- Maksimum uzunluk sıralamaları auarlanır.
 - Veriler, model girişi için uygun forma getirilir.
 
 ### 3. 🧠 Model Eğitimi
@@ -35,8 +36,6 @@ Bu depo, bir metin özetleme modeli oluşturmak ve eğitmek için gereken tüm a
 - Modelin başarımı, **ROUGE** metrikleri ile ölçülür.
 - Oluşturulan özetler, referans özetlerle karşılaştırılır.
 
-### 5. 🚀 Çıkarım (Inference)
-- Eğitilen model, yeni haber metinleri için özet üretmek amacıyla kullanılır.
 
 ---
 
